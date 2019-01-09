@@ -1,0 +1,5 @@
+#!C:\Users\eabidor\PycharmProjects\ConwaysGameOfLife\venv\Scripts\python.exe
+from cx_Freeze.setupwriter import main
+
+main()
+
