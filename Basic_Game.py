@@ -130,6 +130,8 @@ def button(msg, x, y, w, h, ic, ac, action=None):
 # boolean of whether time is running or not. flipped by start_stop function called by start stop button
 running: bool = True
 
+def printToConsole(input):
+    print('You just said' + input)
 
 def start_stop():
     global running
