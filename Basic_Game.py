@@ -133,6 +133,9 @@ running: bool = True
 def printToConsole(input):
     print('You just said' + input)
 
+def multiply(x, y):
+    return x * y
+
 def start_stop():
     global running
     running = not running
